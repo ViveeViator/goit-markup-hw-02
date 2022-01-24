@@ -17,8 +17,20 @@ body {
 .link {
   text-decoration: none;
 }
+.btn-pointer {
+  cursor: pointer;
+}
+.foot-pointer {
+  cursor: default;
+}
+/*
+font-style: normal;*/
 
 /*--------------------------HEADER----------------------*/
+.span-logo {
+  color: #212121;
+}
+
 .header-logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -128,7 +140,7 @@ body {
   background-color: #f5f4fa;
 }
 .men-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
   text-align: center;
@@ -152,13 +164,16 @@ body {
   color: var(--footer-color);
 }
 /*--------------------------FOOTER----------------------*/
+.spani-logo {
+  color: #f5f4fa;
+}
+
 .footer {
   background-color: var(--first-title-color);
 }
 .footer-pre-link {
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
@@ -202,6 +217,26 @@ body {
 .art-btn:focus {
   background-color: var(--accent-color);
 }
+.art-btn:active {
+  color: var(--one-title-color);
+}
 .now {
   background-color: var(--accent-color);
+}
+.art-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--header-color);
+}
+.art-after-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
